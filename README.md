@@ -22,9 +22,13 @@ export DOCKER_REGISTRY_MIRROR=http://xxx.mirror.com
 ln -s ${PWD}/docker-mirror-switch.sh ~/bin/dmirror
 ```
 
-## Documentation
+## References
 
 - [docker - Run a local registry mirror](https://github.com/docker/docker/blob/d409b05970e686993e343d226fae5b463d872082/docs/articles/registry_mirror.md)
 
-### Use DaoCloud as Docker hub mirror to speed up image download in China.
-- [DaoCloud](https://www.daocloud.io/)
+- USTC mirror
+    + [Mirrors 新增 Docker Hub Registry Mirror | What's up, LUG Servers](https://servers.blog.ustc.edu.cn/2015/05/new-docker-hub-registry-mirror/)
+
+- Use DaoCloud mirror as Docker hub mirror to speed up image download in China.
+    + [DaoCloud](https://www.daocloud.io/)
+
